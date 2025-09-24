@@ -68,13 +68,13 @@ int main() {
     printf("Carta 01.\n");
 
     printf("Digite a letra do Estado: \n");
-    scanf("%s", &estado1);
+    scanf("%s", estado1);
 
     printf("Digite o código da carta: \n");
-    scanf("%s", &codigocarta1);
+    scanf("%s", codigocarta1);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &cidade1);
+    scanf("%s", cidade1);
 
     printf("Digite a população: \n");
     scanf("%d", &populacao1);
@@ -91,22 +91,22 @@ int main() {
     densidadepopulacional1 = populacao1 / area1;
     printf("Densidade populacional: %.2f\n", densidadepopulacional1);
     
-    pibpercapita1 = (pib1 * 1000000000) / populacao1;
-    printf("PIB per capita: %.2f\n", pibpercapita1);    
-    
+    #define BILHAO 1000000000
+    pibpercapita1 = (pib1 * BILHAO) / populacao1;
+    printf("PIB per capita: %.2f\n", pibpercapita1);     
     
     printf("\n");  
     
     printf("Carta 02.\n");
 
     printf("Digite a letra do Estado: \n");
-    scanf("%s", &estado2);
+    scanf("%s", estado2);
 
     printf("Digite o código da carta: \n");
-    scanf("%s", &codigocarta2);
+    scanf("%s", codigocarta2);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &cidade2);
+    scanf("%s", cidade2);
 
     printf("Digite a população: \n");
     scanf("%d", &populacao2);
@@ -122,8 +122,9 @@ int main() {
 
     densidadepopulacional2 = populacao2 / area2;
     printf("Densidade populacional: %.2f\n", densidadepopulacional2);
-    
-    pibpercapita2 = (pib2 * 1000000000) / populacao2;
+
+    #define BILHAO 1000000000
+    pibpercapita2 = (pib2 * BILHAO) / populacao2;   
     printf("PIB per capita: %.2f\n", pibpercapita2);     
     
     printf("\n");
