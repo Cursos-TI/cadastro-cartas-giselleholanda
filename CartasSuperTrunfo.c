@@ -2,6 +2,11 @@
  
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
+// Tema 2 - Densidade populacional e PIB per capita
+// Tema 3 - Comparação entre cartas
+
+// Autor: Giselle Holanda
+
 /*Objetivo1: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
   Objetivo 2: No nível intermediário você deve criar as cartas representando as cidades utilizando struct, scanf para entrada de dados e printf para exibir as informações.
   Objetivo 3: No nível avançado você deve criar as cartas representando as cidades utilizando struct, funções, scanf para entrada de dados e printf para exibir as informações.*/
@@ -46,7 +51,7 @@ int main() {
     PIB em bilhões de reais: 73.00
     Ponto turísticos: 55
     Densidade populacional: hab/km²
-    PIB per capita: R$/pessoa
+    PIB per capita: PIB/pessoa
 
     Carta 02
     Estado B: Pernambuco
@@ -57,7 +62,7 @@ int main() {
     PIB em bilhões de reais: 55.00
     Ponto turísticos: 50 
     Densidade populacional: hab/km²  
-    PIB per capita: R$/pessoa 
+    PIB per capita: PIB/pessoa 
     */
 
     printf("Carta 01.\n");
