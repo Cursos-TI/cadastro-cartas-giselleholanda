@@ -73,7 +73,7 @@ int main() {
         printf("2. Área\n");
         printf("3. PIB\n");
         printf("4. Pontos turísticos\n");
-        printf("5. Densidade populacional (menor vence)\n");
+        printf("5. Densidade populacional\n");
         printf("6. PIB per capita\n");
         printf("7. Super Poder\n");
         printf("Digite o número do atributo: ");
